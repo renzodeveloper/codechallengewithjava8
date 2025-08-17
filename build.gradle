@@ -1,0 +1,14 @@
+repositories {
+    mavenCentral()
+}
+
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+    // Configura la versión de Java en todos los subproyectos que tengan el plugin 'java'
+    tasks.withType(JavaCompile).configureEach {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+}

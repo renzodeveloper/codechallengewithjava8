@@ -1,0 +1,33 @@
+
+# compilation and binaries folders
+**/bin/
+**/build/
+
+# Gradle
+.gradle/
+build/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# NetBeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Archivos generados
+*.class
+*.log
+.DS_Store
